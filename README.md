@@ -1,0 +1,3 @@
+# sudoku_solver
+simple sudoku solver with python using recursion.
+the solving algorithm is almost exactly a copy of Professors Thorsten Altenkirch code from: https://www.youtube.com/watch?v=G_UYXzGuqvM . I wrapped it in a class, added some comments and a means to generate a random game with a specified number of filed tiles. the tiles are choosen such, that they don't contradict each others position, nonetheless the game has not always a solution. when generating a game with many filled tiles the algorithm can get stuck if the random chosen tiles contradict the already generated ones. in this case just rerun the algorithm or choose a smaller number of filled tiles.
